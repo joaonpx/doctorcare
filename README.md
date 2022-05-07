@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo" src="https://www.figma.com/file/iCywIPfXpCIXzbqRxntmsa/DoctorCare-(Community)?node-id=61%3A156">
+  <img alt="Logo" src="https://github.com/npx08/nlw-return-origin/blob/master/assets/logo.svg">
 </h1>
 
 <p align="center">
