@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo" src="https://github.com/npx08/nlw-return-origin/blob/master/assets/logo.svg">
+  <img alt="Logo" src="https://github.com/npx08/nlw-return-origin/blob/master/assets/logo.svg" width="25%">
 </h1>
 
 <p align="center">
