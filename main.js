@@ -50,8 +50,7 @@ function activateMenuAtCurrentSection(section) {
 
   if (sectionBoudaries) {
     menuElement.classList.add('active')
-
-    console.log(`seção atual: ${sectionId} \nfoi adicionada a classe active!`)
+    // console.log(`seção atual: ${sectionId} \nfoi adicionada a classe active!`)
   }
 }
 
