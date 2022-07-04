@@ -138,7 +138,7 @@ section .content p {
   fill: var(--brand-light);
 }
 
-#navigation .logo path[fill*='#00856F'],
+#navbar .logo path[fill*='#00856F'],
 #backToTopButton circle {
   fill: var(--primary-color);
 }
@@ -148,16 +148,16 @@ button.open-menu path[stroke*='#00856F'],
   stroke: var(--primary-color);
 }
 
-body.menu-expanded #navigation .logo path,
-#navigation.scroll .logo path {
+body.menu-expanded #navbar .logo path,
+#navbar.scroll .logo path {
   fill: white;
 }
 
-#navigation.scroll button.open-menu path[stroke*='#00856F'] {
+#navbar.scroll button.open-menu path[stroke*='#00856F'] {
   stroke: white;
 }
 
-/* navigation */
+/* navbar */
 nav {
   display: flex;
 
@@ -507,9 +507,9 @@ footer .social-links {
     line-height: 5.2rem;
   }
 
-  /* navigation */
+  /* navbar */
   /* reset */
-  nav#navigation .wrapper * {
+  nav#navbar .wrapper * {
     margin: 0;
     padding: 0;
     visibility: initial;
@@ -525,30 +525,30 @@ footer .social-links {
     filter: initial;
   }
 
-  nav#navigation .close-menu,
-  nav#navigation .open-menu,
-  nav#navigation .social-links {
+  nav#navbar .close-menu,
+  nav#navbar .open-menu,
+  nav#navbar .social-links {
     display: none;
   }
 
-  nav#navigation .menu {
+  nav#navbar .menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 60%;
   }
 
-  nav#navigation .menu ul:nth-child(1) {
+  nav#navbar .menu ul:nth-child(1) {
     display: flex;
     gap: 3.2rem;
   }
 
-  nav#navigation .menu ul li a {
+  nav#navbar .menu ul li a {
     color: var(--primary-color);
     opacity: 0.7;
   }
 
-  nav#navigation .menu a.button {
+  nav#navbar .menu a.button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -565,33 +565,33 @@ footer .social-links {
     text-transform: uppercase;
   }
 
-  nav#navigation .menu a.button:hover {
+  nav#navbar .menu a.button:hover {
     background: var(--primary-color);
     border: none;
     color: white;
   }
 
-  nav#navigation.scroll .menu ul li a {
+  nav#navbar.scroll .menu ul li a {
     color: var(--brand-light-2);
     opacity: 0.6;
   }
 
-  nav#navigation.scroll .menu a.button {
+  nav#navbar.scroll .menu a.button {
     border-color: white;
     color: white;
   }
 
-  nav#navigation .menu li a {
+  nav#navbar .menu li a {
     transition: opacity 0.4s;
   }
 
-  nav#navigation .menu li a.active,
-  nav#navigation .menu li a:hover {
+  nav#navbar .menu li a.active,
+  nav#navbar .menu li a:hover {
     opacity: 1;
     font-weight: 700;
   }
 
-  nav#navigation .menu li a::after {
+  nav#navbar .menu li a::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -606,23 +606,23 @@ footer .social-links {
     transition: width 0.2s;
   }
 
-  nav#navigation.scroll .menu li a::after {
+  nav#navbar.scroll .menu li a::after {
     background-color: white;
   }
 
-  nav#navigation .menu li a.active::after,
-  nav#navigation .menu li a:hover::after {
+  nav#navbar .menu li a.active::after,
+  nav#navbar .menu li a:hover::after {
     padding-inline: 0.8rem;
     width: 100%;
   }
 
-  nav#navigation.scroll .menu li a.active,
-  nav#navigation.scroll .menu li a:hover {
+  nav#navbar.scroll .menu li a.active,
+  nav#navbar.scroll .menu li a:hover {
     opacity: 1;
   }
 
-  nav#navigation.scroll .menu a.button.active,
-  nav#navigation.scroll .menu a.button:hover {
+  nav#navbar.scroll .menu a.button.active,
+  nav#navbar.scroll .menu a.button:hover {
     background-color: var(--primary-color);
     filter: brightness(1.2);
     border: none;
