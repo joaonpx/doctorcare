@@ -56,9 +56,9 @@ function activateMenuAtCurrentSection(section) {
 
 function showNavOnScroll() {
   if (scrollY > 0) {
-    navbar.classList.add('scroll')
+    navigationbar.classList.add('scroll')
   } else {
-    navbar.classList.remove('scroll')
+    navigationbar.classList.remove('scroll')
   }
 }
 
