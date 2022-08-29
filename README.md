@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img alt="DoctorCare" src="https://s3-alpha.figma.com/hub/file/1830384682/b1b2ed74-caf3-4c84-97ad-80a55f8085f1-cover.png" width="100%">
+  <img alt="DoctorCare" src="./assets/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
